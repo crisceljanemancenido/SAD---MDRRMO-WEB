@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipal Disaster Education and Training Center</title>
+    <link rel="icon" type="image/png" href="./assets/title-logo.png" />
+      <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {};
+    </script>
+  </head>
+  <body>
+    <header class="flex justify-between p-4">
+      <div class="flex">
+        <div
+          class="border-r-4 border-black pr-4 flex flex-col items-center justify-center"
+        >
+          <h1
+            class="text-4xl"
+            style="
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                sans-serif;
+            "
+          >
+            Educate.Prepare.Thrive
+          </h1>
+          <span class="text-xl">Your Resilience Journey Begins Here</span>
+        </div>
+        <div class="ml-2 flex w-full flex items-center">
+          <img src="./assets/nav-logo.png" alt="" class="w-28 mr-2" />
+          <h2
+            class="text-3xl w-1/2"
+            style="
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                sans-serif;
+            "
+          >
+            Municipal Disaster Education and Training Center
+          </h2>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center w-1/4">
+          <label
+            for="default-search"
+            class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            >Search</label
+          >
+          <div class="relative">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="search"
+              id="default-search"
+              class="block w-full ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Search"
+              required
+            />
+          </div>
+        </form>
+      </div>
+    </header>
+    <nav class="flex justify-between bg-gray-500 p-2 text-white text-sm">
+        <div style="font-family: Arial, Helvetica, sans-serif">
+            <ul class="uppercase flex">
+                <li class="pl-2"><a href="#">HOME</a></li>
+                <li class="pl-3">
+<button id="aboutUsHoverButton" data-dropdown-toggle="aboutUsHover" data-dropdown-trigger="hover" class="text-center inline-flex items-center">
+    <svg class="w-2.5 h-2.5 ms-3 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" type="button">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg>ABOUT US
+    </button>
+    
+    <!-- Dropdown menu -->
+    <div id="aboutUsHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 capitalize">
+        <ul class="py-2 text-sm text-black" aria-labelledby="aboutUsHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Overview</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Team</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Activities</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Understanding Disaster Risk</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Contact Us</a>
+          </li>
+        </ul>
+    </div>
+    </li>
+    <li class="pl-3">
+        <button id="resourcesHoverButton" data-dropdown-toggle="resourcesHover" data-dropdown-trigger="hover" class="text-center inline-flex items-center">
+            <svg class="w-2.5 h-2.5 ms-3 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" type="button">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+            </svg>RESOURCES
+            </button>
+            
+            <!-- Dropdown menu -->
+            <div id="resourcesHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 capitalize">
+                <ul class="py-2 text-sm text-black" aria-labelledby="resourcesHoverButton">
+                  <li>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Prepare</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Respond</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Recover</a>
+                  </li>
+                </ul>
+            </div>
+            </li>
+            <li class="pl-3">
+                <button id="trainingHoverButton" data-dropdown-toggle="trainingHover" data-dropdown-trigger="hover" class="text-center inline-flex items-center">
+                    <svg class="w-2.5 h-2.5 ms-3 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" type="button">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg>TRAINING
+                    </button>
+                    
+                    <!-- Dropdown menu -->
+                    <div id="trainingHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 capitalize">
+                        <ul class="py-2 text-sm text-black" aria-labelledby="trainingHoverButton">
+                          <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Drills and Exercises</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">CPR/AED</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">ERP Class</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Classroom Training</a>
+                          </li>
+                        </ul>
+                    </div>
+                    </li>
+                <li class="pl-5"><a href="#">ASSESSMENT</a></li>
+                <li class="pl-5"><a href="#">TRANSPARENCY</a></li>
+                <li class="pl-5"><a href="#">NEWS</a></li>
+            </ul>
+        </div>
+
+        <div style="font-family: Arial, Helvetica, sans-serif">
+            <ul class="uppercase flex">
+                <li class="pl-2"><a href="#">MAP</a></li>
+                <li class="pl-5"><a href="#">INCIDENT REPORTING</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script>
+
+    <div class="front_image">
+    <img class="front" src="./assets/frontimg.jpg" alt="Description of the image">
+    <div class="RA">“REPUBLIC ACT No. 10121 <br> <br>
+            — AN ACT STRENGTHENING THE PHILIPPINE <br>
+            DISASTER RISK REDUCTION AND <br>
+            MANAGEMENT SYSTEM, PROVIDING FOR <br>
+            THE NATIONAL DISASTER RISK REDUCTION <br>
+            AND MANAGEMENT FRAMEWORK AND <br>
+            INSTITUTIONALIZING THE NATIONAL
+            <br>DISASTER RISK REDUCTION AND <br>
+            MANAGEMENT PLAN, APPROPRIATING FUNDS<br>
+            THEREFOR AND FOR OTHER PURPOSES.”</div>
+</div>
+
+<div class="latest-events">LATEST EVENTS</div>
+   <div class="video-container">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            <div class="activity1">
+        MDRRMO ACTIVITIES FOR THE MONTH OF SEPTEMBER (2023)
+                 <div class="button"></div>
+
+    </div>
+
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+<div class="animated-weather-map">ANIMATED WEATHER MAP</div>
+
+<div class="weather">
+    <iframe width="1250" height="450" src="https://embed.windy.com/embed2.html?lat=10.034&lon=124.519&detailLat=11.974&detailLon=124.510&width=1150&height=450&zoom=6&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+</div>
+
+
+
+  </body>
+</html>

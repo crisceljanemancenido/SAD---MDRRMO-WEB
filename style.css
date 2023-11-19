@@ -1,0 +1,102 @@
+.front_image {
+    position: relative;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.front {
+    width: 100%;
+    max-height: 800px;
+    height: auto;
+}
+
+.RA {
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    color: white;
+    font-size: 2.1vw;
+    font-weight: bold;
+    padding: 5px;
+    max-width: 800px;
+}
+
+.latest-events {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #0A1F02;
+    font-size: 54px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.weather {
+    text-align: center; /* Center the content horizontally */
+}
+
+.weather iframe {
+    display: block;
+    margin: 0 auto; /* Center the iframe horizontally within the .weather div */
+    width: 100%; /* Set the width as needed */
+    max-width: 1400px; /* Set a maximum width if desired */
+}
+
+.animated-weather-map {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #0A1F02;
+    font-size: 54px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .RA {
+        font-size: 5vw;
+        max-width: 90%;
+    }
+}
+/* Add your global styles here if needed */
+
+.video-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 50px; /* Add margin at the bottom */
+}
+
+.video {
+    width: 30%; /* Adjust the percentage as needed */
+    box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+    /* Optional: Add styling for the iframe to ensure responsiveness */
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column; /* Stack videos vertically on smaller screens */
+    }
+
+    .video {
+        width: 100%; /* Take up the full width on smaller screens */
+        margin: 0; /* No margin on smaller screens */
+        margin-bottom: 15px; /* Optional: Add margin at the bottom */
+    }
+}
+.activity1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-family: Antonio;
+    font-weight: 200;
+    word-wrap: break-word;
+}
